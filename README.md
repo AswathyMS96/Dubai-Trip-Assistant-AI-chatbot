@@ -21,3 +21,25 @@ Make sure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/Dubai-Trip-Assistant-AI.git
+
+2. Navigate to the project directory:
+
+   cd Dubai-Trip-Assistant-AI
+
+3. Create a virtual environment (optional but recommended):
+      python -m venv venv
+      source venv/bin/activate  # For Linux/MacOS
+      venv\Scripts\activate     # For Windows
+4. Install the required dependencies:
+   pip install -r requirements.txt
+
+5. Create a .env file in the project directory and add your OpenAI API key:
+    OPENAI_API_KEY=your-api-key-here
+
+6. Run the app:
+   streamlit run app.py
+
+Once the app is running, you can interact with the chatbot via the Streamlit interface. Enter your queries or trip planning details, and ROBO will respond with personalized advice and a day-wise itinerary.
+   
+
+   
